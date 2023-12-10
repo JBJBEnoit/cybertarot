@@ -1,0 +1,320 @@
+[
+    {
+        "image":"fool.jpg",
+        "name":"0. The Fool",
+        "descr":"The Fool tarot card represents new beginnings, spontaneity, and embracing the unknown. In its upright position, it encourages a leap of faith, suggesting that taking risks without overthinking can lead to unexpected rewards and personal growth. The card symbolizes a carefree attitude toward life and the pursuit of experiences with an open heart and mind.",
+        "descr_inv":"Reversed, the Fool may indicate recklessness, naivety, or a refusal to acknowledge consequences. It advises caution and mindfulness, warning against impulsive decisions that may result in negative outcomes. In this orientation, the card prompts individuals to consider potential risks and responsibilities before embarking on a new journey or venture."
+    },
+    {
+        "image":"magician-2.jpg",
+        "name":"I. The Magician",
+        "descr":"The Magician tarot card embodies the power of transformation and manifestation. In its upright position, it symbolizes the ability to harness cosmic energy and bring spiritual concepts into the material world. The Magician signifies the creative force within individuals, encouraging them to recognize their potential, use their skills, and take decisive action to turn aspirations into reality. This card represents the convergence of will, purpose, and skill, enabling the individual to shape their own destiny.",
+        "descr_inv":"When reversed, the Magician may suggest a misuse or manipulation of personal power. It warns against deceptive practices or overestimating one's abilities, urging a reevaluation of intentions and a need for ethical consideration when wielding influence or pursuing goals."
+    },
+    {
+        "image":"priestess.jpg",
+        "name":"II. The High Priestess",
+        "descr":"The High Priestess tarot card signifies a deep connection to intuition, mystery, and the subconscious. It represents a profound understanding of hidden knowledge and spiritual truths. In its upright position, the card suggests the importance of trusting one's inner wisdom, delving into the mysteries of life, and embracing the cyclical nature of existence. The High Priestess encourages introspection and a receptive attitude towards the unseen forces at play.",
+        "descr_inv":"In a reversed position, the card may indicate a disconnection from intuition or a reluctance to explore the depths of one's inner self. It could suggest a time of revealed secrets or hidden truths, potentially leading to confusion or a lack of clarity. Reversed, the High Priestess advises a reevaluation of spiritual connections and an acknowledgment of the importance of intuitive guidance in navigating through uncertainties."
+    },
+    {
+        "image":"empress-4.jpg",
+        "name":"III. The Empress"
+    },
+    {
+        "image":"emperor.jpg",
+        "name":"IV. The Emperor"
+    },
+    {
+        "image":"hierophant.jpg",
+        "name":"V. The Hierophant"
+    },
+    {
+        "image":"lovers.jpg",
+        "name":"VI. The Lovers"
+    },    
+    {
+        "image":"chariot-2.jpg",
+        "name":"VII. The Chariot"
+    },    
+    {
+        "image":"strength-1.jpg",
+        "name":"VIII. Strength"
+    },    
+    {
+        "image":"hermit-3.jpg",
+        "name":"IX. The Hermit"
+    },    
+    {
+        "image":"wheel-of-fortune.jpg",
+        "name":"X. Wheel of Fortune"
+    },
+    {
+        "image":"justice.jpg",
+        "name":"XI. Justice"
+    },    
+    {
+        "image":"hanged-man.jpg",
+        "name":"XII. The Hanged Man"
+    },    
+    {
+        "image":"death-3.jpg",
+        "name":"XIII. Death"
+    },
+    {
+        "image":"temperance.jpg",
+        "name":"XIV. Temperance"
+    },
+    {
+        "image":"devil.jpg",
+        "name":"XV. The Devil"
+    },
+    {
+        "image":"tower.jpg",
+        "name":"XVI. The Tower"
+    },
+    {
+        "image":"star.jpg",
+        "name":"XVII. The Star"
+    },
+    {
+        "image":"moon-2.jpg",
+        "name":"XVIII. The Moon"
+    },
+    {
+        "image":"sun-2.jpg",
+        "name":"XIX. The Sun"
+    },
+    {
+        "image":"judgment-3.jpg",
+        "name":"XX. Judgement"
+    },
+    {
+        "image":"world.jpg",
+        "name":"XXI. The World"
+    },
+    {
+        "image":"ace-wands.jpg",
+        "name":"Ace of Wands"
+    },
+    {
+        "image":"2-wands.jpg",
+        "name":"Two of Wands"
+    },
+    {
+        "image":"3-wands.jpg",
+        "name":"Three of Wands"
+    },
+    {
+        "image":"4-wands.jpg",
+        "name":"Four of Wands"
+    },
+    {
+        "image":"5-wands.jpg",
+        "name":"Five of Wands"
+    },
+    {
+        "image":"6-wands.jpg",
+        "name":"Six of Wands"
+    },
+    {
+        "image":"7-wands.jpg",
+        "name":"Seven of Wands"
+    },
+    {
+        "image":"8-wands.jpg",
+        "name":"Eight of Wands"
+    },
+    {
+        "image":"9-wands.jpg",
+        "name":"Nine of Wands"
+    },
+    {
+        "image":"10-wands.jpg",
+        "name":"Ten of Wands"
+    },
+    {
+        "image":"page-wands.jpg",
+        "name":"Page of Wands"
+    },
+    {
+        "image":"knight-wands.jpg",
+        "name":"Knight of Wands"
+    },
+    {
+        "image":"queen-wands.jpg",
+        "name":"Queen of Wands"
+    },
+    {
+        "image":"king-wands.jpg",
+        "name":"King of Wands"
+    },
+    {
+        "image":"ace-cups.jpg",
+        "name":"Ace of Cups"
+    },
+    {
+        "image":"2-cups.jpg",
+        "name":"Two of Cups"
+    },
+    {
+        "image":"3-cups.jpg",
+        "name":"Three of Cups"
+    },
+    {
+        "image":"4-cups.jpg",
+        "name":"Four of Cups"
+    },
+    {
+        "image":"5-cups.jpg",
+        "name":"Five of Cups"
+    },
+    {
+        "image":"6-cups.jpg",
+        "name":"Six of Cups"
+    },
+    {
+        "image":"7-cups.jpg",
+        "name":"Seven of Cups"
+    },
+    {
+        "image":"8-cups.jpg",
+        "name":"Eight of Cups"
+    },
+    {
+        "image":"9-cups-3.jpg",
+        "name":"Nine of Cups"
+    },
+    {
+        "image":"10-cups-2.jpg",
+        "name":"Ten of Cups"
+    },
+    {
+        "image":"page-cups.jpg",
+        "name":"Page of Cups"
+    },
+    {
+        "image":"knight-cups-2.jpg",
+        "name":"Knight of Cups"
+    },
+    {
+        "image":"queen-cups.jpg",
+        "name":"Queen of Cups"
+    },
+    {
+        "image":"king-cups.jpg",
+        "name":"King of Cups"
+    },
+    {
+        "image":"ace-swords.jpg",
+        "name":"Ace of Swords"
+    },
+    {
+        "image":"2-swords.jpg",
+        "name":"Two of Swords"
+    },
+    {
+        "image":"3-swords.jpg",
+        "name":"Three of Swords"
+    },
+    {
+        "image":"4-swords.jpg",
+        "name":"Four of Swords"
+    },
+    {
+        "image":"5-swords.jpg",
+        "name":"Five of Swords"
+    },
+    {
+        "image":"6-swords-3.jpg",
+        "name":"Six of Swords"
+    },
+    {
+        "image":"7-swords.jpg",
+        "name":"Seven of Swords"
+    },
+    {
+        "image":"8-swords.jpg",
+        "name":"Eight of Swords"
+    },
+    {
+        "image":"9-swords.jpg",
+        "name":"Nine of Swords"
+    },
+    {
+        "image":"10-swords.jpg",
+        "name":"Ten of Swords"
+    },
+    {
+        "image":"page-swords-2.jpg",
+        "name":"Page of Swords"
+    },
+    {
+        "image":"knight-swords.jpg",
+        "name":"Knight of Swords"
+    },
+    {
+        "image":"queen-swords.jpg",
+        "name":"Queen of Swords"
+    },
+    {
+        "image":"king-swords.jpg",
+        "name":"King of Swords"
+    },
+    {
+        "image":"ace-pentacles.jpg",
+        "name":"Ace of Pentacles"
+    },
+    {
+        "image":"2-pentacles.jpg",
+        "name":"Two of Pentacles"
+    },
+    {
+        "image":"3-pentacles.jpg",
+        "name":"Three of Pentacles"
+    },
+    {
+        "image":"4-pentacles.jpg",
+        "name":"Four of Pentacles"
+    },
+    {
+        "image":"5-pentacls.jpg",
+        "name":"Five of Pentacles"
+    },
+    {
+        "image":"6-pentacles.jpg",
+        "name":"Six of Pentacles"
+    },
+    {
+        "image":"7-pentacles.jpg",
+        "name":"Seven of Pentacles"
+    },
+    {
+        "image":"8-pentacles-2.jpg",
+        "name":"Eight of Pentacles"
+    },
+    {
+        "image":"9-pentacles.jpg",
+        "name":"Nine of Pentacles"
+    },
+    {
+        "image":"10-pentacles-7.jpg",
+        "name":"Ten of Pentacles"
+    },
+    {
+        "image":"page-pentacles.jpg",
+        "name":"Page of Pentacles"
+    },
+    {
+        "image":"knight-pentacles.jpg",
+        "name":"Knight of Pentacles"
+    },
+    {
+        "image":"queen-pentacles.jpg",
+        "name":"Queen of Pentacles"
+    },
+    {
+        "image":"king-pentacles.jpg",
+        "name":"King of Pentacles"
+    }
+]

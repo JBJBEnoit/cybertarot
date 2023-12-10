@@ -1,0 +1,229 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: url("assets/bg5.jpg");
+    background-attachment: fixed;
+}
+
+div {
+    background: #fcfceb;
+    color: #290338;
+}
+
+#wrap {
+    width: 80%;
+    margin-left: 10%;
+    padding: 16px;
+    border-radius: 25px;
+}
+
+#logo {
+    width: 20%;
+}
+
+.card {
+  padding: 2em;
+}
+
+h1, h2 {
+    font-family: 'Geostar Fill', sans-serif;
+    background: transparent;
+    color: #290338;
+    width: fit-content;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 1em;
+    margin-top: -0.75em;
+    font-weight: bold;
+}
+
+#spread-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 5%;
+    padding-top: 0;
+
+}
+
+.descr-card {
+    display: grid;
+    grid-template-rows:auto;
+    margin-bottom: 10px;   
+    background: #efefef;
+}
+
+.card-in-descr {
+    
+    width: 33%;
+    place-self: center;    
+}
+
+#descr-container {
+    border: 5px double #290338;
+    border-radius: 25px;
+    padding: 0 10px 0 10px;
+    background: #efefef;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#descr-container h3, #spread-container h3, .readingText h3  {
+    font-size: 32px;
+}
+
+.readingText h3 {
+    margin-top: 0;
+}
+
+
+
+.card-descr {
+    padding: 10px;
+    place-self: center;
+    text-align: left;
+    background: #efefef;
+    width: 80%;
+    margin-bottom: 1rem;   
+}
+
+#tarot-reader-img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 2rem;
+    border-radius: 15px;
+}
+
+#meditation-img {
+    border-radius: 15px;
+    width: 30%;
+}
+
+.tarot-card {
+    border-radius: 15px;
+    border: 2px solid #290338;
+    padding: 15px 5px 19px 5px;
+    background-color: #290338;
+}
+
+.intro-para {
+    text-align: left;
+    margin-bottom: 1em;
+    font-size: 18px;
+    padding: 0 2rem 0 2rem;
+}
+
+.intro-para::first-letter {
+    font-size: 1.5em;
+}
+
+.collapse {
+    display: none;
+}
+
+.card-name {
+    font-size: 1.5em;
+    color: #fcfceb;
+    background: #290338;
+}
+
+.inverted {
+    transform: rotateZ(180deg);
+}
+
+.card-image {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.verseStanza {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #290338;
+}
+
+.verseStanza::first-letter {
+    font-size: 1.5em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+#createSpreadBtn {
+    background: darkgreen;
+    color: #fcfceb;
+    margin: 2rem 0 2rem 0;
+}
+
+#createSpreadBtn:hover {
+    background: #290338;
+}
+
+#spread-container h2 {
+    margin-top: 15px;
+    font-family: "Arial", sans-serif;
+}
+
+.waitImg {
+    width: 80%;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+}
+
+.no-show {
+    opacity: 0;
+}
+
+@media screen and (max-width: 600px){
+    .card-name {
+        font-size: 0.75em;
+    }
+    
+    
+    h1 {
+
+        font-size: 28px !important;
+    }
+    
+    #wrap {
+        width: 100%;
+        margin: 0 0 0 0;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    #root { 
+        padding: 0;
+        width: 100%;
+    }
+    
+    .intro-para {
+    font-size: 16px !important;  
+    padding: 0 5px 0 5px;
+    }
+    
+    #tarot-reader-img {
+        margin-left: 5px;
+    }
+}
+
+
+

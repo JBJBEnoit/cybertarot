@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+public/assets/card-images/runtimes/win/lib/netstandard2.0/System.Net.Http.WinHttpHandler.dll
+public/assets/card-images/runtimes/win-x64/BedrockLauncher.TokenBroker.dll
+public/assets/card-images/runtimes/win-x64/BedrockLauncher.TokenBroker.exp
+public/assets/card-images/runtimes/win-x64/BedrockLauncher.TokenBroker.lib
+public/assets/card-images/runtimes/win-x64/Windows.Internal.Security.Authentication.Web.winmd
+public/assets/card-images/runtimes/win-x86/BedrockLauncher.TokenBroker.dll
+public/assets/card-images/runtimes/win-x86/BedrockLauncher.TokenBroker.exp
+public/assets/card-images/runtimes/win-x86/BedrockLauncher.TokenBroker.lib
+public/assets/card-images/runtimes/win-x86/Windows.Internal.Security.Authentication.Web.winmd
+public/assets/mandala-2.png
+public/assets/mandala.png
+public/vite.svg

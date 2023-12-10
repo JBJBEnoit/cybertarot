@@ -1,0 +1,14 @@
+[
+{
+"image":"fool.jpg",
+"name":"0. The Fool"
+},
+{
+"image":"magician-2.jpg",
+"name":"I. The Magician"
+},
+{
+"image":"priestess.jpg",
+"name":"II. The High Priestess"
+}
+]
