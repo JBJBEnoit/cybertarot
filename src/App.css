@@ -222,6 +222,11 @@ h1, h2 {
     #tarot-reader-img {
         margin-left: 5px;
     }
+
+    #descr-container {
+        
+        width: 90%;
+    }
 }
 
 
