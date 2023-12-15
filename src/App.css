@@ -227,6 +227,12 @@ h1, h2 {
         
         width: 90%;
     }
+
+    .card-in-descr {
+    
+        width: 45%;
+        place-self: center;    
+    }
 }
 
 
