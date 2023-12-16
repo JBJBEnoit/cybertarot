@@ -229,6 +229,11 @@ h1, h2 {
         width: 90%;
     }
 
+    #waitAnimationContainer{
+
+        margin-bottom: 3vh;
+    }
+    
     .card-in-descr {
     
         width: 45%;
