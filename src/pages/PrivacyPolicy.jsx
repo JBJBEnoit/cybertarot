@@ -1,5 +1,6 @@
 import "../terms-of-use.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 function PrivacyPolicy(){
 
@@ -40,6 +41,7 @@ function PrivacyPolicy(){
 <p>Thank you for using CyberTarot!</p>
 <p id="returnLink"><Link to="/">Back to Home</Link></p>
 </div>
+<Footer />
   </main>
   )
 }

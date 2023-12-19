@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 import '../App.css';
 import deck from "../deck.json"
 import '@fontsource/geostar-fill';
@@ -122,15 +122,15 @@ function Home() {
                 <div className="intro-para">At the heart of our offerings is a collection of stunning tarot cards whose intricate artwork
                     has been collaboratively crafted with the assistance of artificial intelligence. These digital masterpieces transcend
                     traditional boundaries, capturing the essence of each card in a mesmerizing fusion of algorithmic creativity and symbolic
-                    meaning. As you embark on your tarot reading experience, you'll be captivated by the visual tapestry that unfolds before
+                    meaning. As you embark on your tarot reading experience, you&apos;ll be captivated by the visual tapestry that unfolds before
                     you, a testament to the harmonious dance between human inspiration and machine intelligence.</div>
-                <div className="intro-para">But our innovation doesn't stop there. The interpretation of these cards is guided by AI, which 
+                <div className="intro-para">But our innovation doesn&apos;t stop there. The interpretation of these cards is guided by AI, which 
                     weaves together the threads of symbolism, mythology, and archetypal imagery to provide you with a poetic narrative. Your
                     personalized reading unfolds in the form of a beautifully composed poem, offering a rich and nuanced exploration of the
                         energies and insights present in your tarot spread.</div>
                     
-                <div className="intro-para">As we delve into the realm of AI-enhanced divination, it's fascinating to consider the
-                    intersection of technology and mysticism. Drawing inspiration from the renowned psychologist C.G. Jung's theory of
+                <div className="intro-para">As we delve into the realm of AI-enhanced divination, it&apos;s fascinating to consider the
+                    intersection of technology and mysticism. Drawing inspiration from the renowned psychologist C.G. Jung&apos;s theory of
                     synchronicity, we recognize that the algorithmic processes guiding our readings can uncover meaningful patterns and
                     connections that resonate with the deeper currents of the unconscious mind. The interplay of chance and meaningful
                     coincidence, as described by Jung, finds a modern expression in the algorithms that shape your unique tarot experience,
@@ -180,10 +180,7 @@ function Home() {
                 <button id="createSpreadBtn" onClick={() => createSpread()}>{reading.length ? "Get Another Reading" : "Get Reading"}</button>
                 </div>}
             </div>
-            <footer id="footer"><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p>
-            <p><Link to="/terms-of-use">Terms of Use</Link></p>
-            <p><Link to="/privacy-policy">Privacy Policy</Link></p>
-            </footer>
+            <Footer />
         </main> 
     );
 } export default Home;
