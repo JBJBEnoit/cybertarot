@@ -49,8 +49,6 @@ const Footer = () => {
                     <EmailIcon size={32} round={true} />
                 </EmailShareButton>
             </div>
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8335335873732696"
-     crossOrigin="anonymous"></script>
             <div className="footer-container">
                 <p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p>
                 <p><Link to="/terms-of-use">Terms of Use</Link></p>
