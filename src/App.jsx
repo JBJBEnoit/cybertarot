@@ -1,6 +1,6 @@
 //import { useState } from "react";
 import './App.css';
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
 //import deck from "../src/deck.json"
 import '@fontsource/geostar-fill';
