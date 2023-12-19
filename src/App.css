@@ -198,7 +198,7 @@ h1, h2 {
     opacity: 0;
 }
 
-#footer  p {
+#footer  p, #footer div {
     text-align: center;
     color: #fcfceb;
     background-color: #290338;
@@ -206,6 +206,7 @@ h1, h2 {
 
 div.share-container {
     display: flex;
+    gap: 5px;
     justify-content: center;
     align-items: center;
     margin-bottom: 1rem;
