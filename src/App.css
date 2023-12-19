@@ -204,6 +204,10 @@ h1, h2 {
     background-color: #290338;
 }
 
+#footer {
+    margin-top: 1vh;
+}
+
 div.share-container {
     display: flex;
     gap: 5px;
