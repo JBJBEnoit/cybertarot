@@ -1,7 +1,7 @@
 //import { useState } from "react";
 import './App.css';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router';
-import { Home } from "./Home.js";
+import { Home } from "./pages/Home.js";
 //import deck from "../src/deck.json"
 import '@fontsource/geostar-fill';
 import '@fontsource/monofett';
@@ -40,11 +40,9 @@ import '@fontsource/monofett';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<App />}>
-        <Route index element={<Home />} />
-        </Route>
+      <Route path="/" element={<Home/>} />
     )
-  )
+);
 function App() {
     // const [waiting, setWaiting] = useState(false);
     // const [spread, setSpread] = useState([]);
