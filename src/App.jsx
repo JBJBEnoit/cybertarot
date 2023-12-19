@@ -1,15 +1,11 @@
 //import { useState } from "react";
 import './App.css';
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router';
 import { Home } from "./Home.js";
 //import deck from "../src/deck.json"
 import '@fontsource/geostar-fill';
 import '@fontsource/monofett';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 
 // function shuffleAndDraw() {
 
@@ -41,6 +37,14 @@ import {
 //     "11.jpg",
 //     "12.jpg",
 // ];
+
+const router = createBrowserRouter(
+    createRoutesFromElements(
+        <Route path="/" element={<App />}>
+        <Route index element={<Home />} />
+        </Route>
+    )
+  )
 function App() {
     // const [waiting, setWaiting] = useState(false);
     // const [spread, setSpread] = useState([]);
@@ -192,21 +196,9 @@ function App() {
     // } 
 
     return (
-        <Router>
-
-        {/*
-          A <Switch> looks through all its children <Route>
-          elements and renders the first one whose path
-          matches the current URL. Use a <Switch> any time
-          you have multiple routes, but you want only one
-          of them to render at a time
-        */}
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-        </Switch>
-    </Router>
+        <>
+      <RouterProvider router={router}/>
+    </>
     );
 }
 export default App;
