@@ -1,24 +1,20 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-      <link rel="stylesheet" type="text/css" href="src/terms-of-use.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberTarot - Terms of Use</title>
-  </head>
-  <body>
-      <div id="termsWrap">
-      <div id="root"></div>
-          <a href="index.html">
+import React from "react";
+import "../terms-of-use.css";
+import { Link } from "react-router-dom";
+
+function TermsOfUse(){
+
+  return(
+    <main>
+    <Link to="/">
       <img id="termsLogo" src="assets/logo.gif" alt="CyberTarot logo" />
             <h1>CyberTarot</h1>
-              </a>
+              </Link>
       <h2>Terms of Use</h2>
 
       <h3>Last Updated: December 10, 2023</h3>
 
-      <p>Please carefully read the following Terms of Use ("Terms") as they outline the rules and regulations for the use of CyberTarot ("we," "us," or "our") and your rights and responsibilities. By accessing or using CyberTarot, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use our website.</p>
+      <p>Please carefully read the following Terms of Use (&quot;Terms&quot;) as they outline the rules and regulations for the use of CyberTarot (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) and your rights and responsibilities. By accessing or using CyberTarot, you agree to be bound by these Terms. If you do not agree with any part of these Terms, please do not use our website.</p>
 
 <h3>1. Acceptance of Terms</h3>
 <p>By using CyberTarot, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, you may not use the website.</p>
@@ -36,7 +32,7 @@
 <p>All AI-generated site content, including tarot readings, graphics, logos, and text, is made available in the public domain. You may reproduce, distribute, modify, or create derivative works from any AI-generated content on the website without our prior written consent. The CyberTarot website as a whole, however, is the property of CyberTarot and is protected by copyright laws. You may not reproduce, distribute, or modify the CyberTarot website as a whole without prior written consent.</p>
 
 <h3>6. Limitation of Liability</h3>
-<p>CyberTarot is provided "as is" and makes no representations or warranties, express or implied, regarding the accuracy or reliability of the tarot readings or the website. We shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of our website.</p>
+<p>CyberTarot is provided &quot;as is&quot; and makes no representations or warranties, express or implied, regarding the accuracy or reliability of the tarot readings or the website. We shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in any way connected with the use of our website.</p>
 
 <h3>7. Indemnification</h3>
 <p>You agree to indemnify and hold CyberTarot, its affiliates, and their respective officers, directors, employees, and agents harmless from any and all claims, liabilities, damages, costs, and expenses, including legal fees, arising from your use of the website or your violation of these Terms.</p>
@@ -50,8 +46,10 @@
 <p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you have any questions or concerns, please contact us at [Contact Email].</p>
 
 <p>Thank you for using CyberTarot!</p>
-<p>[<a href="index.html">Back to Home</a>]</p>
-</div>
-  </body>
-    
-</html>
+<p>[<Link to="/">Back to Home</Link>]</p>
+
+  </main>
+  )
+}
+
+export default TermsOfUse;

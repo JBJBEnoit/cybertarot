@@ -2,6 +2,7 @@
 import './App.css';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
+import TermsOfUse from './pages/TermsOfUse.jsx';
 //import deck from "../src/deck.json"
 import '@fontsource/geostar-fill';
 import '@fontsource/monofett';
@@ -40,7 +41,8 @@ import '@fontsource/monofett';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Home/>} />
+      <Route path="/" element={<Home/>} />,
+      <Route path="/terms-of-use" element={<TermsOfUse/>} />
     )
 );
 function App() {

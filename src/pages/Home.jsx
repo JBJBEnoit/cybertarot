@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import '../App.css';
 import deck from "../deck.json"
 import '@fontsource/geostar-fill';
@@ -180,7 +180,7 @@ function Home() {
                 <button id="createSpreadBtn" onClick={() => createSpread()}>{reading.length ? "Get Another Reading" : "Get Reading"}</button>
                 </div>}
             </div>
-            <footer><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p><p>{/*<Link to="terms-of-use">Terms of Use</Link>*/}</p></footer>
+            <footer><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p><p>{<Link to="/terms-of-use">Terms of Use</Link>}</p></footer>
         </main> 
     );
 } export default Home;
