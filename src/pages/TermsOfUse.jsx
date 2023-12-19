@@ -46,7 +46,7 @@ function TermsOfUse(){
 <p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you have any questions or concerns, please contact us at [Contact Email].</p>
 
 <p>Thank you for using CyberTarot!</p>
-<p>[<Link to="/">Back to Home</Link>]</p>
+<p><Link to="/">Back to Home</Link></p>
 
   </main>
   )

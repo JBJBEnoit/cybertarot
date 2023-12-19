@@ -1,6 +1,6 @@
 //import { useState } from "react";
 import './App.css';
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./pages/Home.jsx";
 import TermsOfUse from './pages/TermsOfUse.jsx';
 //import deck from "../src/deck.json"
