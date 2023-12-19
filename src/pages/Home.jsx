@@ -49,7 +49,7 @@ function Home() {
             window.location.reload(true);
             return;
         }
-        window.scrollTo(0, 0);
+        window.scrollTo(0, 20);
         setPosition(["Past", "Present", "Future"]);
         setWaiting(true);
         let spreadArr = shuffleAndDraw();
