@@ -46,10 +46,11 @@ function Home() {
     const createSpread = async () => {
            
         if (spread.length) {
+            window.scrollTo(0, 0);
             window.location.reload(true);
             return;
         }
-        window.scrollTo(0, 20);
+        window.scrollTo(20, 0);
         setPosition(["Past", "Present", "Future"]);
         setWaiting(true);
         let spreadArr = shuffleAndDraw();
