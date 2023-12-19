@@ -178,7 +178,8 @@ function App() {
                 <button id="createSpreadBtn" onClick={() => createSpread()}>{reading.length ? "Get Another Reading" : "Get Reading"}</button>
                 </div>}
             </div>
-        </main>
+            <footer><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p><p><a href="terms-of-use.html">Terms of Use</a></p></footer>
+        </main> 
     );
 }
 export default App;
