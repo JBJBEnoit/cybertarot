@@ -181,6 +181,10 @@ h1, h2 {
     text-align: center;
 }
 
+#waitingTxt {
+    text-align: center;
+}
+
 .waitImg {
     width: 60%;
     transition: opacity 0.3s ease-in-out;
@@ -194,7 +198,11 @@ h1, h2 {
     opacity: 0;
 }
 
-footer p {
+footer {
+    display: block;
+}
+
+footer > p {
     text-align: center;
 }
 
