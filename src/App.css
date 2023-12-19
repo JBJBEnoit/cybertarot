@@ -198,11 +198,7 @@ h1, h2 {
     opacity: 0;
 }
 
-footer {
-    display: block;
-}
-
-footer > p {
+#footer > p {
     text-align: center;
 }
 

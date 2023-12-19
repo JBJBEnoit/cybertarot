@@ -180,7 +180,7 @@ function Home() {
                 <button id="createSpreadBtn" onClick={() => createSpread()}>{reading.length ? "Get Another Reading" : "Get Reading"}</button>
                 </div>}
             </div>
-            <footer><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p><p><Link to="/terms-of-use">Terms of Use</Link></p></footer>
+            <div id="footer"><p>&copy; 2023 Jason Benoit. Content for entertainment purposes only.</p><p><Link to="/terms-of-use">Terms of Use</Link></p></div>
         </main> 
     );
 } export default Home;
