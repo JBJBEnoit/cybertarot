@@ -6,6 +6,7 @@ function TermsOfUse(){
 
   return(
     <main>
+      <div id="termsWrap">
     <Link to="/">
       <img id="termsLogo" src="assets/logo.gif" alt="CyberTarot logo" />
             <h1>CyberTarot</h1>
@@ -47,7 +48,7 @@ function TermsOfUse(){
 
 <p>Thank you for using CyberTarot!</p>
 <p><Link to="/">Back to Home</Link></p>
-
+</div>
   </main>
   )
 }
