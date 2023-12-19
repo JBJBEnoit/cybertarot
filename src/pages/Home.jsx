@@ -45,7 +45,7 @@ function Home() {
  
     const createSpread = async () => {
         if (spread.length) {
-            window.location.reload(false);
+            window.location.reload(true);
             return;
         }
         setPosition(["Past", "Present", "Future"]);
