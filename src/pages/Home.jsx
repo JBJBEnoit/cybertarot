@@ -44,10 +44,12 @@ function Home() {
     const [waitImageIdx, setWaitImageIdx] = useState(0);
  
     const createSpread = async () => {
+           
         if (spread.length) {
             window.location.reload(true);
             return;
         }
+        window.scrollTo(0, 0);
         setPosition(["Past", "Present", "Future"]);
         setWaiting(true);
         let spreadArr = shuffleAndDraw();
