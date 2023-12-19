@@ -40,10 +40,7 @@ import '@fontsource/monofett';
 // ];
 
 const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Home/>} />,
-      <Route path="/terms-of-use" element={<TermsOfUse/>} />
-    )
+    [{ path: "/", element: <Home/> }, { path: "/terms-of-use", element: <TermsOfUse/> }]
 );
 function App() {
     // const [waiting, setWaiting] = useState(false);
