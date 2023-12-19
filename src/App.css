@@ -192,6 +192,10 @@ h1, h2 {
     opacity: 0;
 }
 
+footer {
+    text-align: center;
+}
+
 @media screen and (max-width: 600px){
     .card-name {
         font-size: 0.75em;
