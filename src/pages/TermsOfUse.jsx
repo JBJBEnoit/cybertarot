@@ -44,10 +44,10 @@ function TermsOfUse(){
 <h3>9. Governing Law</h3>
 <p>These Terms shall be governed by and construed in accordance with the laws of Ontario, Canada. Any legal action or proceeding arising out of or relating to these Terms shall be brought exclusively in the courts located within Ontario, Canada.</p>
 
-<p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you have any questions or concerns, please contact us at [Contact Email].</p>
+<p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
 
 <p>Thank you for using CyberTarot!</p>
-<p><Link to="/">Back to Home</Link></p>
+<p style="text-align: center;"><Link to="/">Back to Home</Link></p>
 </div>
   </main>
   )
