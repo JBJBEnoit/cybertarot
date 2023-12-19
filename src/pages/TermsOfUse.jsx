@@ -1,4 +1,3 @@
-import React from "react";
 import "../terms-of-use.css";
 import { Link } from "react-router-dom";
 
@@ -44,7 +43,7 @@ function TermsOfUse(){
 <h3>9. Governing Law</h3>
 <p>These Terms shall be governed by and construed in accordance with the laws of Ontario, Canada. Any legal action or proceeding arising out of or relating to these Terms shall be brought exclusively in the courts located within Ontario, Canada.</p>
 
-<p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+<p>By using CyberTarot, you acknowledge that you have read, understood, and agree to be bound by these Terms. If you have any questions or concerns, please contact me at <a href="mailto:jsn.benoit@gmail.com">jsn.benoit@gmail.com</a></p>
 
 <p>Thank you for using CyberTarot!</p>
 <p id="returnLink"><Link to="/">Back to Home</Link></p>
