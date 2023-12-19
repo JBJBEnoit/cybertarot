@@ -79,6 +79,7 @@ h1, h2 {
 
 #descr-container h3, #spread-container h3, .readingText h3  {
     font-size: 32px;
+    text-align: center;
 }
 
 .readingText h3 {
@@ -177,6 +178,7 @@ h1, h2 {
 #spread-container h2 {
     margin-top: 15px;
     font-family: "Arial", sans-serif;
+    text-align: center;
 }
 
 .waitImg {
