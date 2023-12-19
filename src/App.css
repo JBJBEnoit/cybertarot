@@ -200,6 +200,8 @@ h1, h2 {
 
 #footer > p {
     text-align: center;
+    color: #fcfceb;
+    background-color: #290338;
 }
 
 @media screen and (max-width: 600px){
