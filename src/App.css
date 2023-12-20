@@ -241,11 +241,12 @@ div.share-container {
     
     .intro-para {
     font-size: 16px !important;  
-    margin: 0 2px 0 2px;
+    margin: 0 5px 0 5px;
+    padding: 0;
     }
     
     #tarot-reader-img {
-        margin-left: 2px;
+        margin-left: 5px;
     }
 
     #descr-container {
