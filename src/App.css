@@ -245,6 +245,10 @@ div.share-container {
     padding: 0;
     }
     
+    .verseStanza{
+        margin: 0 1em 1em 1em;
+    }
+
     #tarot-reader-img {
         margin-left: 1em;
     }
@@ -257,6 +261,12 @@ div.share-container {
     #waitAnimationContainer{
 
         margin-bottom: 3vh;
+    }
+
+    #waitingTxt {
+
+        margin: 0 1em 0 1em;
+        
     }
     
     .card-in-descr {
